@@ -26,7 +26,7 @@ You can use Hypersign dAuth in either of two modes.
 ```js
 <script
   type="module"
-  src="https://raw.githubusercontent.com/hypersign-protocol/hypersign-auth-js-sdk/master/build/hs-auth-js-sdk-v1.0.0.js"
+  src="https://cdn.jsdelivr.net/gh/hypersign-protocol/hypersign-auth-js-sdk@1.0.2/build/hs-auth-js-sdk.js"
   data-rp-socket-url="ws://localhost:4006"
 ></script>
 ```
@@ -36,7 +36,7 @@ Other optional paramaters:
 ```js
 <script
   type="module"
-  src="https://raw.githubusercontent.com/hypersign-protocol/hypersign-auth-js-sdk/master/build/hs-auth-js-sdk-v1.0.0.js"
+  src="https://cdn.jsdelivr.net/gh/hypersign-protocol/hypersign-auth-js-sdk@1.0.2/build/hs-auth-js-sdk.js"
   data-network-mode="TEST" // Network mode TEST | MAIN. Default value 'MAIN'
   data-listener-mode="SOCKET" // Listener mode SOCKET | POLLING. Default value 'SOCKET'
   data-rp-socket-url="ws://localhost:4006" // Relying party websocket URL
@@ -49,7 +49,7 @@ Other optional paramaters:
 ```js
 <script
   type="module"
-  src="https://raw.githubusercontent.com/hypersign-protocol/hypersign-auth-js-sdk/master/build/hs-auth-js-sdk-v1.0.0.js"
+  src="https://cdn.jsdelivr.net/gh/hypersign-protocol/hypersign-auth-js-sdk@1.0.2/build/hs-auth-js-sdk.js"
   data-listener-mode="POLLING"
   data-rp-server-base-url="http://localhost:4006"
 ></script>
@@ -60,7 +60,7 @@ Other optional paramaters:
 ```js
 <script
   type="module"
-  src="https://raw.githubusercontent.com/hypersign-protocol/hypersign-auth-js-sdk/master/build/hs-auth-js-sdk-v1.0.0.js"
+  src="https://cdn.jsdelivr.net/gh/hypersign-protocol/hypersign-auth-js-sdk@1.0.2/build/hs-auth-js-sdk.js"
   data-network-mode="TEST" // Network mode TEST | MAIN. Default value 'MAIN'
   data-listener-mode="POLLING" // Listener mode SOCKET | POLLING. Default value 'SOCKET'
   data-rp-server-base-url="http://localhost:4006" // Relying party server base URL
