@@ -2,3 +2,4 @@ node_modules
 dist
 hypersign.json
 *.png
+build
